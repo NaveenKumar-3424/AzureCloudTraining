@@ -2,6 +2,7 @@
 
 
 
+
 ## Understanding Cloud Concepts and Terminology
 - What is cloud ?
 - What is the difference between public, private and hybrid cloud ?
