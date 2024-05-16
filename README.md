@@ -1,9 +1,6 @@
-# DevOpsDock AzureCloudTraining
-
-Azure DevOps  Roadmap 
+# DevOpsDock AzureCloud Training
 
 
-Azure Fundamentals
 
 ## Understanding Cloud Concepts and Terminology
 - What is cloud ?
@@ -22,7 +19,7 @@ Azure Fundamentals
    - Fault Tolerance
    - Disaster Recovery
    - Load Balancing
-   - 
+     
 ## Getting Started with Azure
 - Creating an Account with Azure
 - Exploring Regions and Availability Zones in Azure
@@ -66,7 +63,7 @@ Learn about network security groups (NSGs) and traffic management.
 - How to set up the networking
 - How to deploy the applcition on Azure VMs with Networking and use bastion.
 - Overview of the setup and troubleshooting.
-- 
+  
 ##  Azure Interview Questions (Compute and Networking)
 - Interview Questions on the topics covered till Day 6
 - Cloud computing concepts
@@ -100,7 +97,7 @@ Learn about role-based access control (RBAC) for controlling access to Azure res
 - Identity Access Management (IAM)
 - Implementing RBAC
 - Best Practices for RBAC
-- 
+  
 ## Introduction to Azure DevOps
 - Overview of Azure DevOps
 - Introduction to the Azure DevOps services
