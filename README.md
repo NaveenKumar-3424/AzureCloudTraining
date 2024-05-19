@@ -116,37 +116,54 @@ Azure Test Plans: A test management tool for creating, managing, and executing t
 
 Here's a simplified overview of how Azure DevOps works:
 
-1. Understanding DevOps Principles:
-Topics:
-DevOps culture and collaboration
-Automation benefits in DevOps
-Continuous Integration (CI) and Continuous Deployment (CD) concepts
-Introduction to DevOps tools
-2. Introduction to Azure DevOps:
-Topics:
-Overview of Azure DevOps services
-Setting up an Azure DevOps account and project
+## Introduction to Azure DevOps & Boards::
+What is Azure DevOps and a quick walkthrough
+Creating an Azure DevOps Organization
+Creating an Azure DevOps Project
+Azure DevOps Pricing
+Azure DevOps hosting options: Azure DevOps Services VS Azure DevOps Server
 Navigating Azure DevOps dashboard
-3. Azure Repos:
+What are Azure DevOps Boards
+Work items, Backlogs, and Sprints
+Managing work items in Azure boards
+Customizing boards for project needs
+Azure Boards integration with Azure Repos
+
+## Azure Repos:
 Topics:
-Git basics and version control
+Introduction to Source Control and Azure Repos
 Branching strategies
 Pull requests and code reviews
 Integrating Git with Azure Repos
-4. Azure Boards:
-Topics:
-Agile methodologies (Scrum, Kanban)
-Work items, Backlogs, and Sprints
-Customizing boards for project needs
-Azure Boards integration with Azure Repos
-5. Azure Pipelines - Continuous Integration (CI):
+Repository permissions and organization settings
+
+## Azure Pipelines - Continuous Integration (CI):
 Topics:
 CI/CD concepts
 Setting up build pipelines
+Creating Build Pipelines using the classic editor
+Creating build pipeline using YAML
+YAML pipeline structure, the difference between jobs, stages, steps, and tasks
+Creating a multi-stage CICD pipeline
+variables, triggers, Build properties, agents
+Publishing and Download Build Artifacts
 Running tests in CI
 Integrating with Azure Repos
 Release pipelines and approvals
 
+## Azure Test Plans and Testing
+Azure Test Plan Overview
+Features of Azure test plan
+
+## Azure Artifacts
+Overview of Azure Artifacts
+Create the Azure DevOps project and check out the application code
+Set up the infra using Azure Web App
+Create Azure Artifacts feed to host the packages
+Create the CI pipeline that builds the package and pushes it to the feed
+Create the CD pipeline that consumes the package
+Promote the package to trigger the release pipeline
+Upstream packages in Azure Artifacts
 
 ## Azure DevOps - CI Setup - Creating Azure devops pipeline for build and test case using portal and yaml (PROJECT 2)
 - Implementing Continuous Integration (CI)
@@ -230,9 +247,12 @@ Virtual networking and storage solutions.
 Compute, security, and monitoring.
 
 ## Real-Time Projects:
+
 ## Deploying an application behind Firewall on Azure - (PROJECT 1)
 ## Azure DevOps - CI Setup - Creating Azure devops pipeline for build and test case using portal and yaml (PROJECT 2)
 ## Azure DevOps - CD Setup - Creating Azure DevOps Pipeline for Deploying Microservice to Azure AKS (PROJECT 3)
 ## Deploying a Three Tier architecture E-commerce (8 Services, 2 Databases) on AKS - (PROJECT 4)
 ## Event Driven Serverless - (PROJECT 5)
 ## Manage Azure Resources using Terraform - (PROJECT 6)
+## Automating Deployment with a multi-stage Release Pipelines
+
