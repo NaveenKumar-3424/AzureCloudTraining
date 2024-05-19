@@ -99,14 +99,15 @@ Learn about role-based access control (RBAC) for controlling access to Azure res
 - Implementing RBAC
 - Best Practices for RBAC
   
-## Introduction to Azure DevOps
-- Overview of Azure DevOps
-- Introduction to the Azure DevOps services
-- Setting Up Projects and Repositories  
 
-Azure DevOps is a cloud-based platform that provides a comprehensive set of tools for software development and delivery. It brings together development, operations, and testing teams to collaborate and deliver software faster and more reliably. Azure DevOps supports a variety of methodologies, including Agile, DevOps, and Waterfall.
+Here's a simplified overview of how Azure DevOps works:
 
-Key components of Azure DevOps:
+## Introduction to Azure DevOps & Boards::
+
+Azure DevOps is a cloud-based platform that provides a comprehensive set of tools for software development and delivery. 
+It brings together development, operations, and testing teams to collaborate and deliver software faster and more reliably. Azure DevOps supports a variety of methodologies, including Agile, DevOps, and waterfall.
+
+## Key components of Azure DevOps:
 
 Azure Repos: A Git repository for storing code and collaborating with team members.
 Azure Pipelines: A continuous integration and continuous delivery (CI/CD) pipeline that automates the build, test, and deployment of code.
@@ -114,9 +115,6 @@ Azure Boards: A work tracking tool for planning, tracking, and managing work ite
 Azure Artifacts: A package management tool for storing and sharing reusable code components.
 Azure Test Plans: A test management tool for creating, managing, and executing test cases.
 
-Here's a simplified overview of how Azure DevOps works:
-
-## Introduction to Azure DevOps & Boards::
 What is Azure DevOps and a quick walkthrough
 Creating an Azure DevOps Organization
 Creating an Azure DevOps Project
@@ -131,6 +129,7 @@ Azure Boards integration with Azure Repos
 
 ## Azure Repos:
 Topics:
+
 Introduction to Source Control and Azure Repos
 Branching strategies
 Pull requests and code reviews
@@ -139,6 +138,7 @@ Repository permissions and organization settings
 
 ## Azure Pipelines - Continuous Integration (CI):
 Topics:
+
 CI/CD concepts
 Setting up build pipelines
 Creating Build Pipelines using the classic editor
@@ -156,6 +156,7 @@ Azure Test Plan Overview
 Features of Azure test plan
 
 ## Azure Artifacts
+
 Overview of Azure Artifacts
 Create the Azure DevOps project and check out the application code
 Set up the infra using Azure Web App
