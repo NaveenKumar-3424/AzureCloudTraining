@@ -145,39 +145,61 @@ Azure Boards integration with Azure Repos
 Topics:
 
 Introduction to Source Control and Azure Repos
+
 Branching strategies
+
 Pull requests and code reviews
+
 Integrating Git with Azure Repos
+
 Repository permissions and organization settings
 
 ## Azure Pipelines - Continuous Integration (CI):
 Topics:
 
 CI/CD concepts
+
 Setting up build pipelines
+
 Creating Build Pipelines using the classic editor
+
 Creating build pipeline using YAML
+
 YAML pipeline structure, the difference between jobs, stages, steps, and tasks
+
 Creating a multi-stage CICD pipeline
+
 variables, triggers, Build properties, agents
+
 Publishing and Download Build Artifacts
+
 Running tests in CI
+
 Integrating with Azure Repos
+
 Release pipelines and approvals
 
 ## Azure Test Plans and Testing
 Azure Test Plan Overview
+
 Features of Azure test plan
 
 ## Azure Artifacts
 
 Overview of Azure Artifacts
+
 Create the Azure DevOps project and check out the application code
+
 Set up the infra using Azure Web App
+
 Create Azure Artifacts feed to host the packages
+
 Create the CI pipeline that builds the package and pushes it to the feed
+
 Create the CD pipeline that consumes the package
+
 Promote the package to trigger the release pipeline
+
 Upstream packages in Azure Artifacts
 
 ## Azure DevOps - CI Setup - Creating Azure devops pipeline for build and test case using portal and yaml (PROJECT 2)
