@@ -110,21 +110,35 @@ It brings together development, operations, and testing teams to collaborate and
 ## Key components of Azure DevOps:
 
 Azure Repos: A Git repository for storing code and collaborating with team members.
+
 Azure Pipelines: A continuous integration and continuous delivery (CI/CD) pipeline that automates the build, test, and deployment of code.
+
 Azure Boards: A work tracking tool for planning, tracking, and managing work items.
+
 Azure Artifacts: A package management tool for storing and sharing reusable code components.
+
 Azure Test Plans: A test management tool for creating, managing, and executing test cases.
 
 What is Azure DevOps and a quick walkthrough
+
 Creating an Azure DevOps Organization
+
 Creating an Azure DevOps Project
+
 Azure DevOps Pricing
+
 Azure DevOps hosting options: Azure DevOps Services VS Azure DevOps Server
+
 Navigating Azure DevOps dashboard
+
 What are Azure DevOps Boards
+
 Work items, Backlogs, and Sprints
+
 Managing work items in Azure boards
+
 Customizing boards for project needs
+
 Azure Boards integration with Azure Repos
 
 ## Azure Repos:
