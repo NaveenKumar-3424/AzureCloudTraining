@@ -1,6 +1,4 @@
-# DevOpsDock AzureCloud Training
-
-
+# DevOpsDock Azure DevOps & AzureCloud Training
 
 
 ## Understanding Cloud Concepts and Terminology
@@ -31,13 +29,6 @@
 - Resource Groups in Azure
 - Azure Resource Manager Overview
 
-## Azure Virtual Machines
-Objective: Master Infrastructure as a Service (IaaS)
-- Virtualization recap
-- Create a Virtual Machine in Azure
-- Connect to the Virtual Machine
-- Deploy your first application on an Azure VM
-- Virtual Machine ScaleSets for Autoscaling
 
 ## Azure Networking Services
 Objective: Design and Implement Networks
@@ -58,6 +49,14 @@ Learn about network security groups (NSGs) and traffic management.
 - Azure Firewall
 - Virtual Network Peering and VNet Gateway
 - VPN Gateway
+- 
+## Azure Virtual Machines
+Objective: Master Infrastructure as a Service (IaaS)
+- Virtualization recap
+- Create a Virtual Machine in Azure
+- Connect to the Virtual Machine
+- Deploy your first application on an Azure VM
+- Virtual Machine ScaleSets for Autoscaling
 
 ##  Deploying an application behind Firewall on Azure - (PROJECT 1)
 - Practical Hands on video that explains
@@ -70,6 +69,7 @@ Learn about network security groups (NSGs) and traffic management.
 - Cloud computing concepts
 - Azure Basics
 - Azure Networking
+- Azure VM's
 
 ##  Azure Storage Services
 Objective: Manage Data Storage
@@ -115,28 +115,6 @@ Azure Artifacts: A package management tool for storing and sharing reusable code
 Azure Test Plans: A test management tool for creating, managing, and executing test cases.
 Here's a simplified overview of how Azure DevOps works:
 
-1. Planning and tracking work:
-
-Use Azure Boards to create user stories, tasks, and bugs.
-Assign work items to team members and track progress.
-Visualize work using Kanban boards and backlogs.
-2. Continuous integration and continuous delivery (CI/CD):
-
-Set up Azure Pipelines to automatically build and test code changes.
-Define deployment pipelines to release code to different environments.
-Monitor pipeline runs and receive notifications of failures.
-3. Testing and quality assurance:
-
-Create and manage test cases in Azure Test Plans.
-Execute test cases manually or automatically through Azure Pipelines.
-Track test results and generate reports.
-4. Collaboration and communication:
-
-Use Azure DevOps as a central hub for team collaboration.
-Share code, discuss work items, and review pull requests.
-Receive notifications and updates about project activity.
-In summary, Azure DevOps provides a comprehensive platform for software development that helps teams to manage the development process, from idea to deployment. It helps to ensure that software is delivered quickly and reliably, while also providing visibility and control over the entire development lifecycle.
-
 1. Understanding DevOps Principles:
 Topics:
 DevOps culture and collaboration
@@ -160,45 +138,20 @@ Agile methodologies (Scrum, Kanban)
 Work items, Backlogs, and Sprints
 Customizing boards for project needs
 Azure Boards integration with Azure Repos
-5. Azure Pipelines - Part 1: Continuous Integration (CI):
+5. Azure Pipelines - Continuous Integration (CI):
 Topics:
 CI/CD concepts
 Setting up build pipelines
 Running tests in CI
 Integrating with Azure Repos
-6. Azure Pipelines - Part 2: Continuous Deployment (CD):
-Topics:
-Deployment strategies (rolling deployments, canary releases)
-Environment variables and configurations
 Release pipelines and approvals
-7. Azure Test Plans:
-Topics:
-Types of testing (unit, integration, end-to-end)
-Test case management
-Automated testing and test automation tools
-Integrating test plans with pipelines
-8. Azure Artifacts:
-Topics:
-Package management concepts
-Creating and managing packages
-Integrating with build and release pipelines
-9. Integration with Visual Studio Code:
-Topics:
-Visual Studio Code basics
-Extensions for Azure DevOps integration
-Enhancing developer productivity with VS Code
 
-## Azure DevOps - CI Setup - (PROJECT 2)
+
+## Azure DevOps - CI Setup - Creating Azure devops pipeline for build and test case using portal and yaml (PROJECT 2)
 - Implementing Continuous Integration (CI)
 
-- A front-end web app in Python which lets you vote between two options
-- A Redis which collects new votes
-- A .NET worker which consumes votes and stores them
-- A Postgres database backed by a Docker volume
-- A Node.js web app which shows the results of the voting in real time
 
-
-## Azure DevOps - CD Setup - (PROJECT 3)
+## Azure DevOps - CD Setup - Creating Azure DevOps Pipeline for Deploying Microservice to Azure AKS (PROJECT 3)
 - Implementing Continuous Deployment (CD)
 - Using AKS for CD
 - Creating AKS cluster on Azure
@@ -239,7 +192,7 @@ Enhancing developer productivity with VS Code
 ## Event Driven Serverless - (PROJECT 5)
 - Create Azure Functions that are triggered by Azure Blob creation
 
-## Manage Azure Resources using Terraform - (PROJECT 7)
+## Manage Azure Resources using Terraform - (PROJECT 6)
 - How to connect Azure with Terraform
 - How to create resources on Azure with Terraform
 - State file management of Terraform in Azure
@@ -274,3 +227,11 @@ Skills:
 Azure identities and governance.
 Virtual networking and storage solutions.
 Compute, security, and monitoring.
+
+## Real-Time Projects:
+## Deploying an application behind Firewall on Azure - (PROJECT 1)
+## Azure DevOps - CI Setup - Creating Azure devops pipeline for build and test case using portal and yaml (PROJECT 2)
+## Azure DevOps - CD Setup - Creating Azure DevOps Pipeline for Deploying Microservice to Azure AKS (PROJECT 3)
+## Deploying a Three Tier architecture E-commerce (8 Services, 2 Databases) on AKS - (PROJECT 4)
+## Event Driven Serverless - (PROJECT 5)
+## Manage Azure Resources using Terraform - (PROJECT 6)
