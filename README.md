@@ -122,6 +122,7 @@ Azure Test Plans: A test management tool for creating, managing, and executing t
 
 Azure Devops & Boards
 ========================
+
 What is Azure DevOps and a quick walkthrough
 
 Creating an Azure DevOps Organization
@@ -146,7 +147,7 @@ Azure Boards integration with Azure Repos
 
 ## Azure Repos:
 ==============
-Topics:
+
 
 Introduction to Source Control and Azure Repos
 
@@ -160,7 +161,6 @@ Repository permissions and organization settings
 
 ## Azure Pipelines - Continuous Integration (CI):
 =================================================
-Topics:
 
 CI/CD concepts
 
@@ -186,6 +186,7 @@ Release pipelines and approvals
 
 ## Azure Test Plans and Testing
 ===============================
+
 Azure Test Plan Overview
 
 Features of Azure test plan
