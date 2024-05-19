@@ -49,7 +49,7 @@ Learn about network security groups (NSGs) and traffic management.
 - Azure Firewall
 - Virtual Network Peering and VNet Gateway
 - VPN Gateway
-- 
+  
 ## Azure Virtual Machines
 Objective: Master Infrastructure as a Service (IaaS)
 - Virtualization recap
@@ -119,6 +119,9 @@ Azure Artifacts: A package management tool for storing and sharing reusable code
 
 Azure Test Plans: A test management tool for creating, managing, and executing test cases.
 
+
+Azure Devops & Boards
+========================
 What is Azure DevOps and a quick walkthrough
 
 Creating an Azure DevOps Organization
@@ -142,6 +145,7 @@ Customizing boards for project needs
 Azure Boards integration with Azure Repos
 
 ## Azure Repos:
+==============
 Topics:
 
 Introduction to Source Control and Azure Repos
@@ -155,6 +159,7 @@ Integrating Git with Azure Repos
 Repository permissions and organization settings
 
 ## Azure Pipelines - Continuous Integration (CI):
+=================================================
 Topics:
 
 CI/CD concepts
@@ -180,11 +185,13 @@ Integrating with Azure Repos
 Release pipelines and approvals
 
 ## Azure Test Plans and Testing
+===============================
 Azure Test Plan Overview
 
 Features of Azure test plan
 
 ## Azure Artifacts
+==================
 
 Overview of Azure Artifacts
 
