@@ -113,6 +113,7 @@ Azure Pipelines: A continuous integration and continuous delivery (CI/CD) pipeli
 Azure Boards: A work tracking tool for planning, tracking, and managing work items.
 Azure Artifacts: A package management tool for storing and sharing reusable code components.
 Azure Test Plans: A test management tool for creating, managing, and executing test cases.
+
 Here's a simplified overview of how Azure DevOps works:
 
 1. Understanding DevOps Principles:
