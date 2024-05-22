@@ -212,7 +212,11 @@ Upstream packages in Azure Artifacts
 
 ## Azure DevOps - CI Setup - Creating Azure devops pipeline for build and test case using portal and yaml (PROJECT 2)
 - Implementing Continuous Integration (CI)
-
+- 
+## Docker 
+- Docker fundamentals
+- Writing docker files for diff programming languages
+- docker components etc
 
 ## Azure DevOps - CD Setup - Creating Azure DevOps Pipeline for Deploying Microservice to Azure AKS (PROJECT 3)
 - Implementing Continuous Deployment (CD)
