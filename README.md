@@ -226,7 +226,7 @@ Upstream packages in Azure Artifacts
 - AKS Deep Dive
 - Understanding AKS vs Self managed Kubernetes clusters
 
-## Deploying a Three Tier architecture E-commerce (8 Services, 2 Databases) on AKS - (PROJECT 4)
+## Deploying a Three Tier architecture E-commerce with multiple services and backend databases on AKS - (PROJECT 4)
 - Understand what is three tier architecuture
 - How different services connect to each other in three tier architecture
 - How to create Dockerfiles for each service ?
@@ -296,7 +296,7 @@ Compute, security, and monitoring.
 ## Deploying an application behind Firewall on Azure - (PROJECT 1)
 ## Azure DevOps - CI Setup - Creating Azure devops pipeline for build and test case using portal and yaml (PROJECT 2)
 ## Azure DevOps - CD Setup - Creating Azure DevOps Pipeline for Deploying Microservice to Azure AKS (PROJECT 3)
-## Deploying a Three Tier architecture E-commerce (8 Services, 2 Databases) on AKS - (PROJECT 4)
+## Deploying a Three Tier architecture E-commerce with multiple services and backend databases on AKS - (PROJECT 4)
 ## Event Driven Serverless - (PROJECT 5)
 ## Manage Azure Resources using Terraform - (PROJECT 6)
 ## Automating Deployment with a multi-stage Release Pipelines
