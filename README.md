@@ -59,7 +59,7 @@ Objective: Master Infrastructure as a Service (IaaS)
 - Virtual Machine ScaleSets for Autoscaling
 
 ##  Deploying an application behind Firewall on Azure - (PROJECT 1)
-- Practical Hands on video that explains
+- Practical Hands on session that explains
 - How to set up the networking
 - How to deploy the applcition on Azure VMs with Networking and use bastion.
 - Overview of the setup and troubleshooting.
@@ -149,9 +149,9 @@ Azure Boards integration with Azure Repos
 ==============
 
 
-Introduction to Source Control and Azure Repos
+Introduction to Source Control Managment and Azure Repos
 
-Branching strategies
+Branching strategies & Git Concepts
 
 Pull requests and code reviews
 
@@ -212,7 +212,17 @@ Upstream packages in Azure Artifacts
 
 ## Azure DevOps - CI Setup - Creating Azure devops pipeline for build and test case using portal and yaml (PROJECT 2)
 - Implementing Continuous Integration (CI)
-- 
+  
+A front-end web app in Python which lets you vote between two options
+
+A Redis which collects new votes
+
+A .NET worker which consumes votes and stores them
+
+A Postgres database backed by a Docker volume
+
+A Node.js web app which shows the results of the voting in real time
+
 ## Docker 
 - Docker fundamentals
 - Writing docker files for diff programming languages
@@ -269,7 +279,9 @@ Upstream packages in Azure Artifacts
 - How to create an impressive resume on Azure DevOps
 - How to add projects to the Resume
 
-
+## Azure Interview Preparion
+Review of Key Concepts
+Interviews Questions and Practice Sessions
 
 Azure Certifications
 
