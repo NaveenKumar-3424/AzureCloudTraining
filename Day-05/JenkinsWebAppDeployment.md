@@ -30,4 +30,4 @@ sudo apt-get install jenkins
 - VM > Networking > Click on Inbound rule
 - Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed `All traffic`).
 
-<img width="1187" alt="Screenshot 2023-02-01 at 12 42 01 PM" src="https://user-images.githubusercontent.com/43399466/215975712-2fc569cb-9d76-49b4-9345-d8b62187aa22.png">
+![image](https://github.com/devopsdock92/AzureCloudTraining/assets/169902092/cc51c31d-041e-4e9b-b251-08d61310f1f7)
