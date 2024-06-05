@@ -1,69 +1,51 @@
-# Azure Networking Advanced
+# Azure Networking
 
-## Azure App Gateway & WAF
+## Virtual Network
 
-Azure Application Gateway is a web traffic load balancer that enables you to manage and route traffic to your web applications. Web Application Firewall (WAF) provides protection against web vulnerabilities. Key features include:
+A Virtual Network (VNet) in Azure is a logically isolated network that securely connects Azure resources and extends on-premises networks. Key features include:
 
-- **Load Balancing**: Distributes incoming traffic across multiple servers to ensure no single server is overwhelmed.
+- **Isolation**: VNets provide isolation at the network level for segmenting resources and controlling traffic.
 
-- **SSL Termination**: Offloads SSL processing, improving the efficiency of web servers.
+- **Subnetting**: Divide a VNet into subnets for resource organization and traffic control.
 
-- **Web Application Firewall (WAF)**: Protects web applications from common web vulnerabilities and exploits.
+- **Address Space**: VNets have an address space defined using CIDR notation, determining the IP address range.
 
-## Azure Load Balancer
+## Subnets, CIDR
 
-Azure Load Balancer distributes incoming network traffic across multiple servers to ensure no single server is overwhelmed. Key features include:
+### Subnets
 
-- **Load Balancing Algorithms**: Supports different algorithms for distributing traffic, such as round-robin and least connections.
+Subnets are subdivisions of a Virtual Network, allowing for better organization and traffic management.
 
-- **Availability Sets**: Works seamlessly with availability sets to ensure high availability.
+### CIDR (Classless Inter-Domain Routing)
 
-- **Inbound and Outbound Traffic**: Balances both inbound and outbound traffic.
+CIDR notation represents IP addresses and their routing prefix, specifying the range of IP addresses for a network.
 
-## Azure DNS
+## Routes and Route Tables
 
-Azure DNS is a scalable and secure domain hosting service. It provides name resolution using the Microsoft Azure infrastructure. Key features include:
+### Routes
 
-- **Domain Hosting**: Hosts domain names and provides name resolution within Azure.
+Routes dictate how network traffic is directed, specifying the destination and next hop.
 
-- **Integration with Azure Services**: Easily integrates with other Azure services like App Service and Traffic Manager.
+### Route Tables
 
-- **Global Availability**: Provides low-latency responses globally.
+Route Tables are collections of routes associated with subnets, enabling custom routing rules.
 
-## Azure Firewall
+## Network Security Groups (NSGs)
 
-Azure Firewall is a managed, cloud-based network security service that protects your Azure Virtual Network resources. Key features include:
+NSGs are fundamental for Azure's network security, allowing filtering of inbound and outbound traffic. Key aspects include:
 
-- **Stateful Firewall**: Allows or denies traffic based on rules and supports stateful inspection.
+- **Rules**: NSGs define allowed or denied traffic based on source, destination, port, and protocol.
 
-- **Application FQDN Filtering**: Filters traffic based on fully qualified domain names.
+- **Default Rules**: NSGs have default rules for controlling traffic within the Virtual Network and between subnets.
 
-- **Threat Intelligence Integration**: Integrates with threat intelligence feeds for enhanced security.
+- **Association**: NSGs can be associated with subnets or individual network interfaces.
 
-## Virtual Network Peering and VNet Gateway
+## Application Security Groups (ASGs)
 
-### Virtual Network Peering
+ASGs group Azure virtual machines based on application requirements, simplifying network security:
 
-Virtual Network Peering allows connecting Azure Virtual Networks directly, enabling resources in one VNet to communicate with resources in another. Key features include:
+- **Simplification**: ASGs allow defining rules based on application roles instead of individual IP addresses.
 
-- **Global VNet Peering**: Peering can be established across regions.
+- **Dynamic Membership**: ASGs support dynamic membership based on tags or other attributes.
 
-- **Transitive Routing**: Traffic between peered VNets flows directly, improving performance.
-
-### VNet Gateway
-
-VNet Gateway enables secure communication between on-premises networks and Azure Virtual Networks. Key features include:
-
-- **Site-to-Site VPN**: Connects on-premises networks to Azure over an encrypted VPN tunnel.
-
-- **Point-to-Site VPN**: Enables secure remote access to Azure resources.
-
-## VPN Gateway
-
-Azure VPN Gateway provides secure, site-to-site connectivity between your on-premises network and Azure. Key features include:
-
-- **IPsec/IKE VPN Protocols**: Ensures secure communication over the Internet.
-
-- **High Availability**: Supports active-active and active-passive configurations for high availability.
-
-- **BGP Support**: Allows dynamic routing between your on-premises network and Azure.
+- **Rule Association**: Security rules can be associated with ASGs for intuitive and scalable network security management.
