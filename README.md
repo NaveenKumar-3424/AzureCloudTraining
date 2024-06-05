@@ -29,7 +29,14 @@
 - Resource Groups in Azure
 - Azure Resource Manager Overview
 
-
+## Azure Virtual Machines
+Objective: Master Infrastructure as a Service (IaaS)
+- Virtualization recap
+- Create a Virtual Machine in Azure
+- Connect to the Virtual Machine
+- Deploy your first application on an Azure VM
+- Virtual Machine ScaleSets for Autoscaling
+  
 ## Azure Networking Services
 Objective: Design and Implement Networks
 Dive deeper into Azure networking services, including Virtual Network, VPN Gateway, Azure Firewall, and Azure Load Balancer.
@@ -50,13 +57,7 @@ Learn about network security groups (NSGs) and traffic management.
 - Virtual Network Peering and VNet Gateway
 - VPN Gateway
   
-## Azure Virtual Machines
-Objective: Master Infrastructure as a Service (IaaS)
-- Virtualization recap
-- Create a Virtual Machine in Azure
-- Connect to the Virtual Machine
-- Deploy your first application on an Azure VM
-- Virtual Machine ScaleSets for Autoscaling
+
 
 ##  Deploying an application behind Firewall on Azure - (PROJECT 1)
 - Practical Hands on session that explains
