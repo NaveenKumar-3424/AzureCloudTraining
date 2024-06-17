@@ -62,8 +62,9 @@ Learn about network security groups (NSGs) and traffic management.
 ##  Deploying an application behind Firewall on Azure - (PROJECT 1)
 - Practical Hands on session that explains
 - How to set up the networking
-- How to deploy the applcition on Azure VMs with Networking and use bastion.
+- How to deploy the nginx application on Azure VMs with Networking
 - Overview of the setup and troubleshooting.
+- lab session how to access this app from bastion
   
 ##  Azure Interview Questions (Compute and Networking)
 - Interview Questions on the topics covered till Day 6
