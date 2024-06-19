@@ -1,28 +1,33 @@
-### create a storage account in the resource group
+# Create VM using Azure CLI
 
-### To create a resource group, use the az group create command:
-
-```
-az group create --name MyResourceGroup --location eastus
-```
-
-
-### The following example shows a storage account created by using the az storage account create command:
+### Start with creating a Resource Group
 
 ```
-az storage account create --resource-group MyResourceGroup --name storage134 --location eastus --sku Standard_LRS
+az group create --name learn-azure-cli --location eastus
+```
+
+### Set the Resource Group as default (Optional)
+
+```
+az config set defaults.group=learn-azure-cli
+```
+
+### Create VM with Vnet
+
+```
+az vm create \
+  --resource-group learn-azure-cli \
+  --name vmName \ 
+  --image Ubuntu2204 \
+  --vnet-name default \  
+  --subnet default \    
+  --generate-ssh-keys \
+  --output json \
+  --verbose
 ```
 
 ### Delete the Resource Group to delete all the resources
 
 ```
-az group delete --name MyResourceGroup
-
+az group delete --name learn-azure-cli
 ```
-
-
-
-The following example shows a storage account created by using the az storage account create command:
-
-
-To remove a resource group, run the az group delete command:
