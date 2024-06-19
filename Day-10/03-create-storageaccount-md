@@ -1,21 +1,15 @@
-#create a storage account in the resource group
+# Deploy Azure VM using Arm templates
 
-### To create a resource group, use the az group create command:
+### Create resource group if it does not exist 
 
+```
+az group create --name vscode --location 'Central US'
+```
 
-az group create --name MyResourceGroup --location eastus
+### Create virtual machine
 
+Switch to the folder where you have the `01-create-vm.json` file available.
 
-
-### The following example shows a storage account created by using the az storage account create command:
-
-
-az storage account create --resource-group MyResourceGroup --name storage134 --location eastus --sku Standard_LRS
-
-
-### Delete the Resource Group to delete all the resources
-
-az group delete --name MyResourceGroup
-
-
-
+```
+az deployment group create --resource-group vscode --template-file 01-create-vm.json
+```
