@@ -1,33 +1,51 @@
-## Create VM using Azure CLI
+# Azure Networking
 
-### Start with creating a Resource Group
+## Virtual Network
 
-```
-az group create --name learn-azure-cli --location eastus
-```
+A Virtual Network (VNet) in Azure is a logically isolated network that securely connects Azure resources and extends on-premises networks. Key features include:
 
-### Set the Resource Group as default (Optional)
+- **Isolation**: VNets provide isolation at the network level for segmenting resources and controlling traffic.
 
-```
-az config set defaults.group=learn-azure-cli
-```
+- **Subnetting**: Divide a VNet into subnets for resource organization and traffic control.
 
-### Create VM with Vnet
+- **Address Space**: VNets have an address space defined using CIDR notation, determining the IP address range.
 
-```
-az vm create \
-  --resource-group learn-azure-cli \
-  --name vmName \ 
-  --image Ubuntu2204 \
-  --vnet-name default \  
-  --subnet default \    
-  --generate-ssh-keys \
-  --output json \
-  --verbose
-```
+## Subnets, CIDR
 
-### Delete the Resource Group to delete all the resources
+### Subnets
 
-```
-az group delete --name learn-azure-cli
-```
+Subnets are subdivisions of a Virtual Network, allowing for better organization and traffic management.
+
+### CIDR (Classless Inter-Domain Routing)
+
+CIDR notation represents IP addresses and their routing prefix, specifying the range of IP addresses for a network.
+
+## Routes and Route Tables
+
+### Routes
+
+Routes dictate how network traffic is directed, specifying the destination and next hop.
+
+### Route Tables
+
+Route Tables are collections of routes associated with subnets, enabling custom routing rules.
+
+## Network Security Groups (NSGs)
+
+NSGs are fundamental for Azure's network security, allowing filtering of inbound and outbound traffic. Key aspects include:
+
+- **Rules**: NSGs define allowed or denied traffic based on source, destination, port, and protocol.
+
+- **Default Rules**: NSGs have default rules for controlling traffic within the Virtual Network and between subnets.
+
+- **Association**: NSGs can be associated with subnets or individual network interfaces.
+
+## Application Security Groups (ASGs)
+
+ASGs group Azure virtual machines based on application requirements, simplifying network security:
+
+- **Simplification**: ASGs allow defining rules based on application roles instead of individual IP addresses.
+
+- **Dynamic Membership**: ASGs support dynamic membership based on tags or other attributes.
+
+- **Rule Association**: Security rules can be associated with ASGs for intuitive and scalable network security management.
