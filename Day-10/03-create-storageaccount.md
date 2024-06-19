@@ -20,9 +20,3 @@ az group delete --name MyResourceGroup
 
 ```
 
-
-
-The following example shows a storage account created by using the az storage account create command:
-
-
-To remove a resource group, run the az group delete command:
