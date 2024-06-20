@@ -1,15 +1,15 @@
-# Deploy Azure VM using Arm templates
+# Steps to deploy storage account arm template
 
-### Create resource group if it does not exist 
+### Create resource group
 
 ```
 az group create --name vscode --location 'Central US'
 ```
 
-### Create virtual machine
+### Create the storage account
 
-Switch to the folder where you have the `01-create-vm.json` file available.
+Switch to the folder where you have the `01-storage-account.json` or similar file
 
 ```
-az deployment group create --resource-group vscode --template-file 01-create-vm.json
+az deployment group create --resource-group vscode --template-file 01-storage-account.json
 ```
