@@ -13,3 +13,5 @@ Switch to the folder where you have the `01-storage-account.json` or similar fil
 ```
 az deployment group create --resource-group vscode --template-file 01-storage-account.json
 ```
+### delete the resource group
+az group delete --name <ResourceGroupName> --yes --no-wait
