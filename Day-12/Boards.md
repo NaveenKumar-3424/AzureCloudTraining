@@ -148,6 +148,3 @@ A Sprint(also known as Iteration in Azure DevOps) is the amount of time we have 
 
 It's important to note that effective communication and collaboration among these parties are fundamental to the success of Agile or Scrum projects. Roles and responsibilities may vary depending on the Agile framework or methodology used.
 
-## References:
-
-https://medium.com/@piyush.sachdeva055/azure-boards-and-agile-project-management-afe2a7029578
