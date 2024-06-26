@@ -58,3 +58,8 @@ Another type of version control system is TFVC, a centralized version control. I
 
 ![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/b39d56b3-19e7-49f1-9c42-99c183f01bbf)
 
+## Add users or groups to a team or project
+
+
+https://learn.microsoft.com/en-us/azure/devops/organizations/security/add-users-team-project?view=azure-devops&tabs=preview-page
+
