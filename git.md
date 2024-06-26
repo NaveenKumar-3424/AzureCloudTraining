@@ -58,6 +58,3 @@ Another type of version control system is TFVC, a centralized version control. I
 
 ![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/b39d56b3-19e7-49f1-9c42-99c183f01bbf)
 
-## References
-
-https://medium.com/@piyush.sachdeva055/azure-devops-repos-simplified-469681ed55c2
