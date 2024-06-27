@@ -143,9 +143,6 @@ Work items, Backlogs, and Sprints
 
 Managing work items in Azure boards
 
-Customizing boards for project needs
-
-Azure Boards integration with Azure Repos
 
 ## Azure Repos:
 ==============
