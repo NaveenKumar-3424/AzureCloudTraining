@@ -74,43 +74,71 @@ Docker simplifies the process of developing, shipping, and running applications 
 
 ## Docker Installation
 System Requirements
+
 Before installing Docker, ensure that your system meets the minimum requirements:
+
 Windows: Windows 10 64-bit: Pro, Enterprise, or Education (with Hyper-V support)
+
 macOS: macOS Sierra 10.12 or later
+
 Linux: 64-bit version of Ubuntu, Debian, CentOS, Fedora, or other compatible distributions
 
 ## Installing Docker on Windows
 
 Steps to Install Docker Desktop on Windows:
+
 Download Docker Desktop: Visit the Docker Hub website and download the Docker Desktop installer for Windows.
+
 https://docs.docker.com/
+
 Run Installer: Double-click the downloaded installer file and follow the installation wizard's instructions. Ensure that Hyper-V is enabled in the BIOS settings if prompted.
+
 Launch Docker Desktop: Once installed, Docker Desktop will appear in your system tray. Click on it to start Docker.
+
 Verification: Open a command prompt or PowerShell window and enter docker version to verify that Docker is installed correctly.
 
 ## Installing Docker on macOS
 
 Steps to Install Docker Desktop on macOS:
+
 Download Docker Desktop: Go to the Docker Hub website and download the Docker Desktop installer for macOS.
+
 Install Docker Desktop: Double-click the downloaded .dmg file, and it will open a window with the Docker icon. Drag the Docker icon to the Applications folder to install it.
+
 Launch Docker Desktop: Open Launchpad or go to the Applications folder and click on Docker to start Docker Desktop.
+
 Verification: Open a terminal and enter docker version to confirm the successful installation of Docker.
 
 ## Installing Docker on Linux
 
 Steps to Install Docker Engine on Linux:
+
 The installation steps may slightly vary based on the Linux distribution. Here's a general guide for installing Docker on Linux:
+
 Update Package Repository: Open a terminal and update the package repository using the command specific to your distribution:For Ubuntu/Debian:
+
 sudo apt-get update
-  For CentOS/Fedora:
+
+For CentOS/Fedora:
+
 sudo yum update
+
 2. Install Docker: Use the package manager to install Docker:
+   
 For Ubuntu/Debian
+
 sudo apt-get install docker-ce docker-ce-cli containerd.io
+
  For CentOS/Fedora:
+ 
 sudo yum install docker-ce docker-ce-cli containerd.io
-3. Start Docker Service: After installation, start the Docker service:
+
+4. Start Docker Service: After installation, start the Docker service:
+   
 sudo systemctl start docker
-4. Enable Docker Service (Optional): To enable Docker to start on boot:
+
+6. Enable Docker Service (Optional): To enable Docker to start on boot:
+   
 sudo systemctl enable docker
-5. Verification: Type the docker version in the terminal to verify that the Docker is installed and running.
+
+8. Verification: Type the docker version in the terminal to verify that the Docker is installed and running.
