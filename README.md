@@ -177,10 +177,6 @@ variables, triggers, Build properties, agents
 
 Publishing and Download Build Artifacts
 
-Running tests in CI
-
-Integrating with Azure Repos
-
 Release pipelines and approvals
 
 ## Azure Test Plans and Testing
