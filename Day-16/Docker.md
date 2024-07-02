@@ -83,6 +83,7 @@ Linux: 64-bit version of Ubuntu, Debian, CentOS, Fedora, or other compatible dis
 
 Steps to Install Docker Desktop on Windows:
 Download Docker Desktop: Visit the Docker Hub website and download the Docker Desktop installer for Windows.
+https://docs.docker.com/
 Run Installer: Double-click the downloaded installer file and follow the installation wizard's instructions. Ensure that Hyper-V is enabled in the BIOS settings if prompted.
 Launch Docker Desktop: Once installed, Docker Desktop will appear in your system tray. Click on it to start Docker.
 Verification: Open a command prompt or PowerShell window and enter docker version to verify that Docker is installed correctly.
