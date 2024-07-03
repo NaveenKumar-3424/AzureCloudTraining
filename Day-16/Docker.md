@@ -120,30 +120,25 @@ Steps to Install Docker Engine on Linux:
 
 The installation steps may slightly vary based on the Linux distribution. Here's a general guide for installing Docker on Linux:
 
-Update Package Repository: Open a terminal and update the package repository using the command specific to your distribution:For Ubuntu/Debian:
-
+## 1. Add Docker's official GPG key:
 sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
 
-For CentOS/Fedora:
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+## 2.Install the Docker packages.
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+## 3.Verify that the Docker Engine installation is successful by running the hello-world image.
+docker version 
 
-sudo yum update
+To run Docker commands as a non-root user without needing to prefix sudo, you need to add your user to the docker group. This allows your user to communicate with the Docker daemon, which is required for executing Docker commands. Here's how you can do it:
 
-2. Install Docker: Use the package manager to install Docker:
-   
-For Ubuntu/Debian
+sudo usermod -aG docker $USER
 
-sudo apt-get install docker-ce docker-ce-cli containerd.io
-
- For CentOS/Fedora:
- 
-sudo yum install docker-ce docker-ce-cli containerd.io
-
-4. Start Docker Service: After installation, start the Docker service:
-   
-sudo systemctl start docker
-
-6. Enable Docker Service (Optional): To enable Docker to start on boot:
-   
-sudo systemctl enable docker
-
-8. Verification: Type the docker version in the terminal to verify that the Docker is installed and running.
+docker version
