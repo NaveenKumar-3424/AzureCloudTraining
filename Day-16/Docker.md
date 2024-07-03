@@ -1,5 +1,10 @@
 ## Virtualization
 
+“Virtualization is a technology that allows you to create multiple simulated environments or dedicated resources from a single, physical hardware system” 
+Virtualization provides stronger isolation as each virtual machine is a separate entity with its own operating system (OS).
+Virtualization requires more resources as each virtual machine requires its own OS.
+Virtualization generally has more overhead due to running multiple OS instances. 
+
 ## What is Docker?
 
 Docker is a containerization platform that allows developers to package applications and their dependencies into containers. These containers are isolated, lightweight, and portable, enabling seamless deployment across various environments.
