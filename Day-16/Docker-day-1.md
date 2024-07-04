@@ -164,11 +164,11 @@ https://docs.docker.com/get-docker/
 
 For Demo, 
 
-You can create an Ubuntu EC2 Instance on AWS and run the below commands to install docker.
+You can create an Ubuntu VM on Azure and run the below commands to install docker.
 
 ```
-sudo apt update
-sudo apt install docker.io -y
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh ./get-docker.sh 
 ```
 
 
@@ -216,7 +216,7 @@ sudo systemctl start docker
 To grant access to your user to run the docker command, you should add the user to the Docker Linux group. Docker group is create by default when docker is installed.
 
 ```
-sudo usermod -aG docker ubuntu
+sudo usermod -aG docker azureuser
 ```
 
 In the above command `ubuntu` is the name of the user, you can change the username appropriately.
@@ -261,7 +261,7 @@ docker login
 
 ```
 Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
-Username: abhishekf5
+Username: devopsdock92
 Password:
 WARNING! Your password will be stored unencrypted in /home/ubuntu/.docker/config.json.
 Configure a credential helper to remove this warning. See
@@ -275,7 +275,7 @@ Login Succeeded
 You need to change the username accoringly in the below command
 
 ```
-docker build -t abhishekf5/my-first-docker-image:latest .
+docker build -t devopsdock92/my-first-docker-image:latest .
 ```
 
 Output of the above command
@@ -338,14 +338,14 @@ Hello World
 ### Push the Image to DockerHub and share it with the world
 
 ```
-docker push abhishekf5/my-first-docker-image
+docker push devopsdock92/my-first-docker-image
 ```
 
 Output
 
 ```
 Using default tag: latest
-The push refers to repository [docker.io/abhishekf5/my-first-docker-image]
+The push refers to repository [docker.io/devopsdock92/my-first-docker-image]
 896818320e80: Pushed
 b8088c305a52: Pushed
 69dd4ccec1a0: Pushed
