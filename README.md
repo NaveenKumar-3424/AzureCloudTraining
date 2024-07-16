@@ -252,9 +252,8 @@ A Node.js web app which shows the results of the voting in real time
 ## Azure Serverless
 - Understanding Azure Serverless Services
 - Going Serverless with Azure
+- Azure functions
 
-## Event Driven Serverless - (PROJECT 5)
-- Create Azure Functions that are triggered by Azure Blob creation
 
 ## Manage Azure Resources using Terraform - (PROJECT 6)
 - How to connect Azure with Terraform
