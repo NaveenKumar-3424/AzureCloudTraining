@@ -27,7 +27,7 @@ Plan: Before applying changes, Terraform generates an execution plan to show you
 Apply: After reviewing the plan, you can apply the changes to reach the desired state of the infrastructure.
 
 
-Here's a basic workflow for using Terraform to manage Azure infrastructure:
+## Here's a basic workflow for using Terraform to manage Azure infrastructure:
 
 1. Prerequisites
 Terraform: Ensure Terraform is installed on your machine. You can download it from the official site.
