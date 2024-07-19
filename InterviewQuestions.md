@@ -86,6 +86,3 @@ A: Action
 
 R: Result
 
-## How would you implement CICD for a dockerized or microservice-based application with multiple services?
-- Check out Video 10 for ACI and Video 11 for Kubernetes
-
