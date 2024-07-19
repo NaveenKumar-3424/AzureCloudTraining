@@ -265,7 +265,7 @@ A Node.js web app which shows the results of the voting in real time
 - How to create an impressive resume on Azure DevOps
 - How to add projects to the Resume
 
-## Azure Interview Preparion
+## Azure Interview Preparation
 Review of Key Concepts
 Interviews Questions and Practice Sessions
 
